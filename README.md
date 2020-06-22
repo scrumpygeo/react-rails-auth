@@ -3,3 +3,5 @@
 Two main ways of authentication with react and an api server are with a token (eg JWT or simple_authentication_token) and using session cookies. This method uses the latter with a rails api.
 
 Does not use redux but uses render props.
+
+Matching backend: react-rails-auth
