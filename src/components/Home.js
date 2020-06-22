@@ -3,8 +3,7 @@ import Registration from "./auth/Registration";
 
 class Home extends Component {
   handleSuccessfulAuth = (data) => {
-    // Todo: update parent component
-    // then redirect to dashboard
+    this.props.handleLogin(data);
     this.props.history.push("/dashboard");
   };
   render() {
